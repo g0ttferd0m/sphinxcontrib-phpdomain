@@ -6,7 +6,7 @@ I use Sphinx on OpenSuse Leap 42.1 with python 3.4.
 
 I wanted to create documentation for PHP project, so I wanted to use __sphinxcontrib-phpdomain__ BUT,
 
-to much bugs, firstly, this version of phpdomain use iteritems() which is not used by Python 3 anymore.
+too much bugs, firstly, this version of phpdomain use iteritems() which is not used by Python 3 anymore.
 
 So thanks to StackOverflow I saw that items() must replace iteritems(). So do I. 
 
