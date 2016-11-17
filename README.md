@@ -45,10 +45,11 @@ Exception occurred:
   File "/usr/lib/python3.4/site-packages/sphinxcontrib/phpdomain.py", line 506, in generate
     content = sorted(content.iteritems())
 AttributeError: 'dict' object has no attribute 'iteritems'
+```
 
 ```bash
 Exception occurred:
   File "/usr/lib/python3.4/site-packages/sphinxcontrib/phpdomain.py", line 564, in clear_doc
     for fullname, (fn, _) in self.data['objects'].items():
 RuntimeError: dictionary changed size during iteration
-
+```
