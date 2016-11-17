@@ -16,6 +16,8 @@ So with some friends help we try some solutions and the best one was to import c
 
 Here the sample code before and after modifications:
 
+From this :
+
 ```python
 def clear_doc(self, docname):
         for fullname, (fn, _) in self.data['objects'].iteritems():
@@ -26,7 +28,7 @@ def clear_doc(self, docname):
                 del self.data['namespaces'][ns]
 ```
 
-and 
+To this : 
 
 ```python
 def clear_doc(self, docname):
@@ -38,7 +40,7 @@ def clear_doc(self, docname):
                 del self.data['namespaces'][ns]
 ```
 
-I let here the backtrace of the bugs : 
+Here the error log from command line when command make html run : 
 
 ```bash
 Exception occurred:
